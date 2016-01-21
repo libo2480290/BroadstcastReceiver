@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="hello" />
+
+    <Button
+        android:id="@+id/send_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送自定义静态注册广播" />
+
+    <Button
+        android:id="@+id/send_dynamic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送自定义动态注册广播" />
+
+    <Button
+        android:id="@+id/send_system"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送系统动态注册广播" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_notification"
+        android:text="发送Notification消息"/>
+
+    <Button
+        android:id="@+id/btn_startservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动服务"/>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" />
+</LinearLayout>  
